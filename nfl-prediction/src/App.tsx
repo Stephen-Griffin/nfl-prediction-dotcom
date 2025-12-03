@@ -65,7 +65,7 @@ function App() {
             onLetterAnimationComplete={handleAnimationComplete}
           />
         </h1>
-        <h2 className="mt-2 text-2xl">CMSC320 Fall 2025 Project</h2>
+        <h2 className="mt-2 text-2xl">Fall 2025 Data Science Project</h2>
         <h3 className="mt-2 max-w-md text-gray-300 text-center">
           Andrew Weil, Corey Gross, Kai Fosshage, Ben Scrivanich, Allison
           Bejeck, Stephen Griffin
