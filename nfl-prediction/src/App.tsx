@@ -4,6 +4,7 @@ import Dock from "./components/Dock";
 import { IoIosHome } from "react-icons/io";
 import { FaDatabase, FaUserCircle } from "react-icons/fa";
 import { IoAnalytics } from "react-icons/io5";
+import { introToData } from "./content/Intro";
 
 const handleAnimationComplete = () => {
   console.log("All letters have animated!");
@@ -89,7 +90,7 @@ function App() {
       >
         <div className="max-w-3xl px-6 text-center">
           <h2 className="text-3xl font-semibold mb-4">Data</h2>
-          <p className="text-gray-300">This is the Data section</p>
+          <p className="text-gray-300">{introToData}</p>
         </div>
       </section>
 
